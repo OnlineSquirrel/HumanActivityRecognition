@@ -2,8 +2,7 @@
 Human Activity Recognition Project for Getting Data Course
 
 ## Purpose
-The purpose of this project was to obtain and clean data related to the Human Activity Recognition Project.
-
+The purpose of this project was to obtain and clean data related to the Human Activity Recognition Project.  
 Details can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 ## Content
