@@ -13,12 +13,12 @@
 #### ----------------   Download the .zip file   ------------------ ####
 
 url = "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-tempZipFile = "./RawData/downloadedZipFile.zip"
+tempZipFile = "downloadedZipFile.zip"
 download.file(url, tempZipFile, method = "curl") 
 print(paste("....  ","downloaded from",url,"into", tempZipFile, sep = " "))
 
 #### -----------------  Unzip the file   -----------------------####
 
-unzip(tempZipFile, overwrite = FALSE, exdir = "./RawData") 
+unzip(tempZipFile, overwrite = FALSE) 
 # It unzips the file into "UCI HAR Dataset" folder and subfolders "train" and "test"....
 print(paste("....  ","unzipped file", tempZipFile, sep = " "))

@@ -12,7 +12,7 @@
 ## where this script is located.
 
 library(plyr)    
-rawDataFilePath <-  file.path(".","RawData","UCI HAR Dataset")
+rawDataFilePath <-  file.path(".","UCI HAR Dataset")
 #### ----------   Get the column Ids and columns Names from features.txt that we need   ---------- ####
     
 #   First column of this data.frame are column Ids for X-train and X_test datasets that we'll extract
@@ -106,12 +106,13 @@ XMeasurements <- merge(XMerged,activityLabels,"activityId")
 #Eliminating "activityId" column from the dataset
 drops <- c("activityId")
 XMeasurements <- XMeasurements[,!(names(XMeasurements) %in% drops)]
-    
+write.table(XMeasurements, "HARMeasurements.txt", row.names = FALSE, sep = "\t", quote = FALSE)    
+
 #### ----------   Calculate average values for each column per subject/activityName combination   ---------- ####
     
 avgValues <- ddply(XMeasurements, .(subject,activityName), function(v){x <- v[,1:66]; colMeans(x)})
 names(avgValues) <- paste("avgOf",names(avgValues),sep = "")
 colnames(avgValues)[1] <- "subject"
 colnames(avgValues)[2] <- "activityName"
-write.table(data.frame(names(avgValues)), "./CleanedData/HARAveragesLabels.txt", row.names = FALSE, sep = "\t", quote = FALSE)
-write.table(avgValues, "./CleanedData/HARAveragesValues.txt", sep = "\t", row.names=FALSE, quote = FALSE)
+write.table(data.frame(names(avgValues)), "HARAveragesLabels.txt", row.names = FALSE, sep = "\t", quote = FALSE)
+write.table(avgValues, "HARAveragesValues.txt", sep = "\t", row.names=FALSE, quote = FALSE)
