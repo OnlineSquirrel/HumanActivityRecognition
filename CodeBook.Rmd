@@ -5,87 +5,87 @@ date: "April 22, 2015"
 output: html_document
 ---
 
-## Data Dictionary for HARAveragesValues.txt
+### Data Dictionary for HARAveragesValues.txt
 Field Name | Type/Value | Unit of measure | Description
 ---------- | ---------- | --------------- | ----------------------------
 subject | [1:30] | | Identifier of the subject who carried out the experiment
 activityName | Character [Sitting, Standing, Walking, Walking Downstairs, Walking Upstairs, Lying] | | Activity the subject was performing when measures were taken
-avgOfMeanOfTimeBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of the MeanOfTimeBodyAccelerometerDirectionX measurement per subject/activityName (tBodyAcc-mean()-X in the original data set)
-avgOfMeanOfTimeBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of the MeanOfTimeBodyAccelerometerDirectionY measurement per subject/activityName ( tBodyAcc-mean()-Y in the original data set)
-avgOfMeanOfTimeBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of the MeanOfTimeBodyAccelerometerDirectionZ measurement per subject/activityName (tBodyAcc-mean()-Z in the original data set)
-avgOfStdOfTimeBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of the StdOfTimeBodyAccelerometerDirectionX measurement per subject/activityName (tBodyAcc-std()-X in the original data set)
-avgOfStdOfTimeBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of the StdOfTimeBodyAccelerometerDirectionY measurement per subject/activityName (tBodyAcc-std()-Y in the original data set)
-avgOfStdOfTimeBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeBodyAccelerometerDirectionZ measurement per subject/activityName (tBodyAcc-std()-Z in the original data set)
-avgOfMeanOfTimeGravityAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of the TimeGravityAccelerometerDirectionX measurement per subject/activityName (tGravityAcc-mean()-X in the original data set)
-avgOfMeanOfTimeGravityAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeGravityAccelerometerDirectionY measurement per subject/activityName (tGravityAcc-mean()-Y in the original data set)
-avgOfMeanOfTimeGravityAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeGravityAccelerometerDirectionZ measurement per subject/activityName (tGravityAcc-mean()-Z in the original data set)
-avgOfStdOfTimeGravityAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeGravityAccelerometerDirectionX measurement per subject/activityName (tGravityAcc-std()-X in the original data set)
-avgOfStdOfTimeGravityAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeGravityAccelerometerDirectionY measurement per subject/activityName (tGravityAcc-std()-Y in the original data set)
-avgOfStdOfTimeGravityAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeGravityAccelerometerDirectionZ measurement per subject/activityName (tGravityAcc-std()-Z in the original data set)
-avgOfMeanOfTimeBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeBodyAccelerometerJerkDirectionX measurement per subject/activityName (tBodyAccJerk-mean()-X in the original data set)
-avgOfMeanOfTimeBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeBodyAccelerometerJerkDirectionY measurement per subject/activityName (tBodyAccJerk-mean()-Y in the original data set)
-avgOfMeanOfTimeBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeBodyAccelerometerJerkDirectionZ measurement per subject/activityName (tBodyAccJerk-mean()-Z in the original data set)
-avgOfStdOfTimeBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeBodyAccelerometerJerkDirectionX per subject/activityName (tBodyAccJerk-std()-X in the original data set)
-avgOfStdOfTimeBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeBodyAccelerometerJerkDirectionY per subject/activityName (tBodyAccJerk-std()-Y in the original data set)
-avgOfStdOfTimeBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeBodyAccelerometerJerkDirectionZ per subject/activityName (tBodyAccJerk-std()-Z in the original data set)
-avgOfMeanOfTimeBodyGyroscopeDirectionX | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeDirectionX per subject/activityName (tBodyGyro-mean()-X in the original data set)
-avgOfMeanOfTimeBodyGyroscopeDirectionY | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeDirectionY per subject/activityName (tBodyGyro-mean()-Y in the original data set)
-avgOfMeanOfTimeBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeDirectionZ per subject/activityName (tBodyGyro-mean()-Z in the original data set)
-avgOfStdOfTimeBodyGyroscopeDirectionX | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeDirectionX per subject/activityName (tBodyGyro-std()-X in the original data set)
-avgOfStdOfTimeBodyGyroscopeDirectionY | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeDirectionY per subject/activityName (tBodyGyro-std()-Y in the original data set)
-avgOfStdOfTimeBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeDirectionZ per subject/activityName (tBodyGyro-std()-Z in the original data set)
-avgOfMeanOfTimeBodyGyroscopeJerkDirectionX | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeJerkDirectionX per subject/activityName (tBodyGyroJerk-mean()-X in the original data set)
-avgOfMeanOfTimeBodyGyroscopeJerkDirectionY | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeJerkDirectionY per subject/activityName (tBodyGyroJerk-mean()-Y in the original data set)
-avgOfMeanOfTimeBodyGyroscopeJerkDirectionZ | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeJerkDirectionZ per subject/activityName (tBodyGyroJerk-mean()-Z in the original data set)
-avgOfStdOfTimeBodyGyroscopeJerkDirectionX | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeJerkDirectionX per subject/activityName (tBodyGyroJerk-std()-X in the original data set)
-avgOfStdOfTimeBodyGyroscopeJerkDirectionY | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeJerkDirectionY per subject/activityName (tBodyGyroJerk-std()-Y in the original data set)
-avgOfStdOfTimeBodyGyroscopeJerkDirectionZ | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeJerkDirectionZ per subject/activityName (tBodyGyroJerk-std()-Z in the original data set)
-avgOfMeanOfTimeBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeBodyAccelerometerMagnitute per subject/activityName (tBodyAccMag-mean() in the original data set)
-avgOfStdOfTimeBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeBodyAccelerometerMagnitute per subject/activityName (tBodyAccMag-std() in the original data set)
-avgOfMeanOfTimeGravityAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeGravityAccelerometerMagnitute per subject/activityName (tGravityAccMag-mean() in the original data set)
-avgOfStdOfTimeGravityAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeGravityAccelerometerMagnitute per subject/activityName (tGravityAccMag-std() in the original data set)
-avgOfMeanOfTimeBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfTimeBodyAccelerometerJerkMagnitute per subject/activityName (tBodyAccJerkMag-mean() in the original data set)
-avgOfStdOfTimeBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of StdOfTimeBodyAccelerometerJerkMagnitute per subject/activityName (tBodyAccJerkMag-std() in the original datas et)
-avgOfMeanOfTimeBodyGyroscopeMagnitute | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeMagnitute per subject/activityName (tBodyGyroMag-mean() in the original data set)
-avgOfStdOfTimeBodyGyroscopeMagnitute | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeMagnitute per subject/activityName (tBodyGyroMag-std() in the original data set)
-avgOfMeanOfTimeBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Average value of MeanOfTimeBodyGyroscopeJerkMagnitute per subject/activityName (tBodyGyroJerkMag-mean() in the original data set)
-avgOfStdOfTimeBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Average value of StdOfTimeBodyGyroscopeJerkMagnitute per subject/activityName (tBodyGyroJerkMag-std() in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerDirectionX per subject/activityName (fBodyAcc-mean()-X in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerDirectionY per subject/activityName (fBodyAcc-mean()-Y in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerDirectionZ per subject/activityName (fBodyAcc-mean()-Z in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerDirectionX per subject/activityName (fBodyAcc-std()-X in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerDirectionY per subject/activityName (fBodyAcc-std()-Y in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerDirectionZ per subject/activityName (fBodyAcc-std()-Z in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerJerkDirectionX per subject/activityName (fBodyAccJerk-mean()-X in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerJerkDirectionY per subject/activityName (fBodyAccJerk-mean()-Y in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerJerkDirectionZ per subject/activityName (fBodyAccJerk-mean()-Z in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerJerkDirectionX per subject/activityName (fBodyAccJerk-std()-X in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerJerkDirectionY per subject/activityName ( fBodyAccJerk-std()-Y in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerJerkDirectionZ per subject/activityName (fBodyAccJerk-std()-Z in the original data set)
-avgOfMeanOfFrequencyBodyGyroscopeDirectionX | [-1,1] | radians/second | Average value of MeanOfFrequencyBodyGyroscopeDirectionX per subject/activityName (fBodyGyro-mean()-X in the original data set)
-avgOfMeanOfFrequencyBodyGyroscopeDirectionY | [-1,1] | radians/second | Average value of MeanOfFrequencyBodyGyroscopeDirectionY per subject/activityName (fBodyGyro-mean()-Y in the original data set)
-avgOfMeanOfFrequencyBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average value of MeanOfFrequencyBodyGyroscopeDirectionZ per subject/activityName (fBodyGyro-mean()-Z in the original data set)
-avgOfStdOfFrequencyBodyGyroscopeDirectionX | [-1,1] | radians/second | Average value of StdOfFrequencyBodyGyroscopeDirectionX per subject/activityName (fBodyGyro-std()-X in the original data set)
-avgOfStdOfFrequencyBodyGyroscopeDirectionY | [-1,1] | radians/second | Average value of StdOfFrequencyBodyGyroscopeDirectionY per subject/activityName (fBodyGyro-std()-Y in the original data set)
-avgOfStdOfFrequencyBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average value of StdOfFrequencyBodyGyroscopeDirectionZ per subject/activityName (fBodyGyro-std()-Z in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerMagnitute per subject/activityName (fBodyAccMag-mean() in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerMagnitute per subject/activityName (fBodyAccMag-std() in the original data set)
-avgOfMeanOfFrequencyBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of MeanOfFrequencyBodyAccelerometerJerkMagnitute per subject/activityName (fBodyBodyAccJerkMag-mean() in the original data set)
-avgOfStdOfFrequencyBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average value of StdOfFrequencyBodyAccelerometerJerkMagnitute per subject/activityName (fBodyBodyAccJerkMag-std() in the original data set)
-avgOfMeanOfFrequencyBodyGyroscopeMagnitute |[-1,1] | radians/second | Average value of MeanOfFrequencyBodyGyroscopeMagnitute per subject/activityName (fBodyBodyGyroMag-mean() in the original data set)
-avgOfStdOfFrequencyBodyGyroscopeMagnitute | [-1,1] | radians/second | Average value of StdOfFrequencyBodyGyroscopeMagnitute per subject/activityName (fBodyBodyGyroMag-std() in the original data set)
-avgOfMeanOfFrequencyBodyGyroscopeJerkMagnitude | [-1,1] | radians/second | Average value of MeanOfFrequencyBodyGyroscopeJerkMagnitude per subject/activityName (fBodyBodyGyroJerkMag-mean() in the original data set)
-avgOfStdOfFrequencyBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Average value of StdOfFrequencyBodyGyroscopeJerkMagnitute per subject/activityName (fBodyBodyGyroJerkMag-std() in the original data set)
+avgOfMeanOfTimeBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average of the tBodyAcc-mean()-X per subject/activityName
+avgOfMeanOfTimeBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average of the tBodyAcc-mean()-Y per subject/activityName
+avgOfMeanOfTimeBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of the tBodyAcc-mean()-Z per subject/activityName
+avgOfStdOfTimeBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average of the tBodyAcc-std()-X per subject/activityName
+avgOfStdOfTimeBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average of the tBodyAcc-std()-Y per subject/activityName
+avgOfStdOfTimeBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of tBodyAcc-std()-Z per subject/activityName
+avgOfMeanOfTimeGravityAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average of the tGravityAcc-mean()-X per subject/activityName
+avgOfMeanOfTimeGravityAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average of tGravityAcc-mean()-Y per subject/activityName
+avgOfMeanOfTimeGravityAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of tGravityAcc-mean()-Z per subject/activityName
+avgOfStdOfTimeGravityAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average of tGravityAcc-std()-X per subject/activityName
+avgOfStdOfTimeGravityAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average of tGravityAcc-std()-Y per subject/activityName
+avgOfStdOfTimeGravityAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of tGravityAcc-std()-Z per subject/activityName
+avgOfMeanOfTimeBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerk-mean()-X per subject/activityName
+avgOfMeanOfTimeBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerk-mean()-Y per subject/activityName
+avgOfMeanOfTimeBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerk-mean()-Z per subject/activityName
+avgOfStdOfTimeBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerk-std()-X per subject/activityName
+avgOfStdOfTimeBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerk-std()-Y per subject/activityName
+avgOfStdOfTimeBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerk-std()-Z per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeDirectionX | [-1,1] | radians/second | Average of tBodyGyro-mean()-X per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeDirectionY | [-1,1] | radians/second | Average of tBodyGyro-mean()-Y per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average of tBodyGyro-mean()-Z per subject/activityName
+avgOfStdOfTimeBodyGyroscopeDirectionX | [-1,1] | radians/second | Average of tBodyGyro-std()-X per subject/activityName
+avgOfStdOfTimeBodyGyroscopeDirectionY | [-1,1] | radians/second | Average of tBodyGyro-std()-Y per subject/activityName
+avgOfStdOfTimeBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average of tBodyGyro-std()-Z per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeJerkDirectionX | [-1,1] | radians/second | Average of tBodyGyroJerk-mean()-X per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeJerkDirectionY | [-1,1] | radians/second | Average of tBodyGyroJerk-mean()-Y per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeJerkDirectionZ | [-1,1] | radians/second | Average of tBodyGyroJerk-mean()-Z per subject/activityName
+avgOfStdOfTimeBodyGyroscopeJerkDirectionX | [-1,1] | radians/second | Average of tBodyGyroJerk-std()-X per subject/activityName
+avgOfStdOfTimeBodyGyroscopeJerkDirectionY | [-1,1] | radians/second | Average of StdOfTimeBodyGyroscopeJerkDirectionY per subject/activityName (tBodyGyroJerk-std()-Y in the original data set)
+avgOfStdOfTimeBodyGyroscopeJerkDirectionZ | [-1,1] | radians/second | Average of  tBodyGyroJerk-std()-Zper subject/activityName
+avgOfMeanOfTimeBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccMag-mean() per subject/activityName
+avgOfStdOfTimeBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccMag-std() per subject/activityName
+avgOfMeanOfTimeGravityAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average of tGravityAccMag-mean() per subject/activityName
+avgOfStdOfTimeGravityAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average of tGravityAccMag-std() per subject/activityName
+avgOfMeanOfTimeBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerkMag-mean() per subject/activityName
+avgOfStdOfTimeBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average of tBodyAccJerkMag-std() per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeMagnitute | [-1,1] | radians/second | Average of tBodyGyroMag-mean() per subject/activityName
+avgOfStdOfTimeBodyGyroscopeMagnitute | [-1,1] | radians/second | Average of tBodyGyroMag-std() per subject/activityName
+avgOfMeanOfTimeBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Average of tBodyGyroJerkMag-mean() per subject/activityName
+avgOfStdOfTimeBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Average of tBodyGyroJerkMag-std() per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average of fBodyAcc-mean()-X per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average of fBodyAcc-mean()-Y per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of fBodyAcc-mean()-Z per subject/activityName
+avgOfStdOfFrequencyBodyAccelerometerDirectionX | [-1, 1] | Standard gravity units 'g' | Average of fBodyAcc-std()-X per subject/activityName
+avgOfStdOfFrequencyBodyAccelerometerDirectionY | [-1, 1] | Standard gravity units 'g' | Average of fBodyAcc-std()-Y per subject/activityName
+avgOfStdOfFrequencyBodyAccelerometerDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of fBodyAcc-std()-Z per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccJerk-mean()-X per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccJerk-mean()-Y per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccJerk-mean()-Z per subject/activityName (fBodyAccJerk-mean()-Z in the original data set)
+avgOfStdOfFrequencyBodyAccelerometerJerkDirectionX | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccJerk-std()-X per subject/activityName (fBodyAccJerk-std()-X in the original data set)
+avgOfStdOfFrequencyBodyAccelerometerJerkDirectionY | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccJerk-std()-Y per subject/activityName
+avgOfStdOfFrequencyBodyAccelerometerJerkDirectionZ | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccJerk-std()-Z per subject/activityName
+avgOfMeanOfFrequencyBodyGyroscopeDirectionX | [-1,1] | radians/second | Average of fBodyGyro-mean()-X per subject/activityName
+avgOfMeanOfFrequencyBodyGyroscopeDirectionY | [-1,1] | radians/second | Average of fBodyGyro-mean()-Y per subject/activityName 
+avgOfMeanOfFrequencyBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average of fBodyGyro-mean()-Z per subject/activityName
+avgOfStdOfFrequencyBodyGyroscopeDirectionX | [-1,1] | radians/second | Average of fBodyGyro-std()-X per subject/activityName
+avgOfStdOfFrequencyBodyGyroscopeDirectionY | [-1,1] | radians/second | Average of fBodyGyro-std()-Y per subject/activityName
+avgOfStdOfFrequencyBodyGyroscopeDirectionZ | [-1,1] | radians/second | Average of fBodyGyro-std()-Z per subject/activityName 
+avgOfMeanOfFrequencyBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccMag-mean() per subject/activityName
+avgOfStdOfFrequencyBodyAccelerometerMagnitute | [-1, 1] | Standard gravity units 'g' | Average of fBodyAccMag-std() per subject/activityName
+avgOfMeanOfFrequencyBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average of fBodyBodyAccJerkMag-mean() per subject/activityName
+avgOfStdOfFrequencyBodyAccelerometerJerkMagnitute | [-1, 1] | Standard gravity units 'g' | Average of fBodyBodyAccJerkMag-std() per subject/activityName (fBodyBodyAccJerkMag-std() in the original data set)
+avgOfMeanOfFrequencyBodyGyroscopeMagnitute |[-1,1] | radians/second | Average of fBodyBodyGyroMag-mean() per subject/activityName
+avgOfStdOfFrequencyBodyGyroscopeMagnitute | [-1,1] | radians/second | Average of fBodyBodyGyroMag-std() per subject/activityName
+avgOfMeanOfFrequencyBodyGyroscopeJerkMagnitude | [-1,1] | radians/second | Average of fBodyBodyGyroJerkMag-mean() per subject/activityName
+avgOfStdOfFrequencyBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Average of fBodyBodyGyroJerkMag-std() per subject/activityName
 
-## Transformations / Work performed in the run_analysis.txt
-1. Get the column Ids and columns Names of the X_train and X_test results (contained in the features.txt)
+### Transformations / Work performed in the run_analysis.txt
+1. First figure out which columns/variables (for X_train and X_test results) we need for the final data set. They are in the features.txt
     + Loading the features.txt into a data.frame
     + Extract only Ids and Names that are related to measurements on the mean and standard deviation for each measurement
     + Important disclaimer:
-        + I extracted the measurement labels (from features.txt) that contain strings "mean()" or "std()".
-        + I did not extract all columns that just had a "mean" word in it (like "angle(tBodyAccMean,gravity)") since I do not think that they comply with the requirement ("only the measurements on the mean and standard deviation for each measurement.")
+        + I extracted the variable names (from features.txt) that contain strings "mean()" or "std()".
+        + I did not extract all columns that just had a "mean" string in it (like "angle(tBodyAccMean,gravity)") since I do not think that they comply with the requirement ("only the measurements on the mean and standard deviation for each measurement.")
     + Apply set of transformations on the variable names - they will be used as variable names for the clean data set:
-        + Get rid of probable typos "BodyBody"
+        + Get rid of probable typo "BodyBody"
         + Get rid of "()"
         + Replace "t" with Time - per features_info.txt
         + Replace "f" with Frequency - per features_info.txt
@@ -105,12 +105,12 @@ avgOfStdOfFrequencyBodyGyroscopeJerkMagnitute | [-1,1] | radians/second | Averag
     + Add a column for the subject from the subject.txt file (in the "test" folder) - Nth subject in the subject file corresponds to the Nth observation in the X_test.txt file
     + Add a column for the activity Id from the y_test.txt file (in the "test" folder) -Nth activity id in the y_test.txt file corresponds to the Nth observation in the X_test.txt file
 5. Now each of the data sets contains subjects, activities and values for the measurements on the mean and standard deviation for each measurement, one for "test" obsevrvations and one for "train" observations.
-6. Merge 2 data sets to one unified, for test and train observations toegther.
+6. Merge 2 data sets to one unified, for test and train observations together.
 7. Replace the activity Id column with the activity names:
     + Load activity_labels.txt
     + Clean up the names:
          + Change to init-case
-         + Fix typos
+         + Fix typos, like laying to lying
     + Add the activityName column to the merged dataset (by using the activityId for joining)
     + Get rid of the activityId column
 8. At this poin the resulting data.frame contains a tidy data for only the measurements on the mean and standard deviation for each measurement.
