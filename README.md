@@ -15,7 +15,7 @@ Components:
 ### GetHARData.r
 * Downloads the zip file with raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * Unzips the .zip file into the working directory
-  * Data is unzipped into the UCI folder
+  * Data is unzipped into the "UCI HAR Dataset" folder
 
 ### run_analysis.R
 The requirements for this script are:
@@ -25,7 +25,7 @@ The requirements for this script are:
 * Appropriately label the data set with descriptive variable names. 
 * From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 Assumptions and decisions:
-* The script assumes that extracted folders and files with raw data are in the UCI folder under the working directory where the script is called from - default unzip location
+* The script assumes that extracted folders and files with raw data are in the "UCI HAR Dataset" folder under the working directory where the script is called from - default unzip location
 * The script will create 2 separate files:
   * HARMeasurements.txt - file containing the cleaned dataset with only variables related to mean() and std()
   * HARAveragesLabels.txt - file containig all labels/column names of the final file
@@ -39,5 +39,5 @@ The main output of this project is the HARAveragesValues.txt file in the working
 
 ## How to run this project
 1. If you don't have the downloaded data, run, in R, _source("getHARData.r")_
-  * If you do have the downloaded data please sure its top folder (UCI) is in thr working directory
+  * If you do have the downloaded data please sure its top folder ("UCI HAR Dataset") is in the working directory
 2. Run in R _source("run_analysis.R)_
