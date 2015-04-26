@@ -39,5 +39,5 @@ The main output of this project is the HARAveragesValues.txt file in the working
 
 ## How to run this project
 1. If you don't have the downloaded data, run, in R, _source("getHARData.r")_
-  * If you do have the downloaded data please sure its top folder ("UCI HAR Dataset") is in the working directory
+  * If you do have the downloaded data please make sure its top folder ("UCI HAR Dataset") is in the working directory
 2. Run in R _source("run_analysis.R)_
